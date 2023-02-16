@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/schema",
-    "id": "TailwindContainerSchema",
+    "$id": "TailwindContainerSchema",
     "title": "My Tailwind Container Schema",
     "type": "object",
     "properties": {
@@ -11,7 +11,7 @@
         "path": {
             "type":"string",
             "format": "path",
-            "description": "The path to create the component",
+            "description": "The path to create the component.",
             "visible": false
         }
 

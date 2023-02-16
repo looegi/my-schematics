@@ -4,7 +4,4 @@ import { Component } from '@angular/core';
     selector: 'my-<%= dasherize(name) %>',
     templateUrl: './<%= dasherize(name) %>.component.html'
 })
-export class My<%= classify(name) %>Component {
-
-
-}
+export class My<%= classify(name) %>Component {}
